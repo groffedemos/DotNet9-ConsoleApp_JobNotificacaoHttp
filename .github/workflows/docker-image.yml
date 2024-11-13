@@ -9,7 +9,7 @@ on:
 
 env:
   IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/dotnet9-job-notificacao
-  DIR_WEBAPP: './src/ConsumerContagem'
+  DIR_WEBAPP: './src/ConsoleAppJobNotificacaoHttp'
   
 jobs:
 
